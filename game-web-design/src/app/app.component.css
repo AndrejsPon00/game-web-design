@@ -1,0 +1,111 @@
+.wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: url("../assets/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.map {
+    background: url("../assets/map.jpeg");
+    background-position: center;
+    border: 5px solid black;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.center {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.compas {
+    width: 500px;
+    height: 70px;
+}
+
+.ability {
+    border: 1px solid black;
+    width: calc(100% / 8);
+    height: 100%;
+}
+
+.abilities {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    margin-bottom: 20px;
+    background-color: white;
+    width: 80%;
+    height: 50px;
+}
+
+.inventory {
+    width: 25%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.inventory img {
+    width: 33.33%;
+    height: 50%;
+
+}
+
+.players {
+    display: flex;
+    flex-direction: row;
+    background: rgb(250, 155, 155);
+    width: 55%;
+    height: 200px;
+}
+
+.player {
+    width: 20%;
+    border: 1px solid black;
+}
+
+.quest {
+    background: green;
+    width: 20%;
+    height: 200px;
+}
+
+.hud {
+    display: flex;
+    flex-direction: row;
+}
+
+.ability-container {
+    display: flex;
+    justify-content: center;
+}
+
+.player-name {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.player-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
